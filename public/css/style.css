@@ -378,7 +378,7 @@ section{
     transform: scale(1.03);
 }
 
-#contact-icon .box-container .box:hover {
+/* #contact-icon .box-container .box:hover {
     transform: scale(1.3);
 }
 
@@ -396,6 +396,24 @@ section{
     color:var(--main-color);
     align-items: center;
     align-content: center;
+} */
+
+.footer .center {
+    text-align: center;
+}
+
+.footer a i{
+    padding: 0rem 5rem;
+    font-size: 5rem;
+    color:var(--main-color);
+}
+
+.footer .center div{
+    display: inline-block;
+}
+
+.footer .center div:hover {
+    transform: scale(1.3);
 }
 
 @keyframes spin {
