@@ -266,6 +266,7 @@ section{
 .events .brochure .btn{
     background-color: var(--main-color);
     color: white;
+    margin: 5px;
 }
 
 .events .brochure .btn:hover{
